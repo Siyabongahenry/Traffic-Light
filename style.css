@@ -1,0 +1,72 @@
+.container{
+    padding:2%;
+    text-align: center;
+}
+.traffic-light-container
+{
+    display: inline-block;
+    overflow: auto;
+    width:50%;
+}
+.btn-play{
+    background-color: blue;
+    color:white;
+}
+.btn-play:hover{
+    border-color: silver;
+}
+.traffic-light{
+    display: inline-block;
+    position:relative;
+    padding: 2%;
+    border-radius:5px;
+    width:60px;
+    background-color: rgb(21, 23, 48);
+}
+.light{
+    display: inline-block;
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    opacity:0.6;
+    background-color:  silver;
+}
+.sign-stop{
+    background-color: red;
+}
+.sign-wait{
+    background-color: yellow;
+}
+.sign-go{
+    background-color: green;
+}
+.sign{
+    display: block;
+    padding:2%;
+    border-radius: 5px;
+    border-color: silver;
+    box-shadow: 2px 2px 4px red;
+    margin: 5px;
+}
+.go-on,.stop-on,.wait-on{
+    opacity:1;
+}
+.go-on{
+    background-color: rgb(66, 224, 66);
+    box-shadow: -5px -5px 10px rgb(66, 224, 66),5px 5px 10px rgb(66, 224, 66);
+}
+.wait-on{
+    box-shadow: -5px -5px 10px yellow,5px 5px 10px yellow;
+    background-color: yellow;
+}
+.stop-on{
+    box-shadow: -5px -5px 10px red,5px 5px 10px red;
+    background: red;
+}
+
+.btn-controls{
+    padding:2%;
+    display: inline-block;
+    background-color: #757070;
+    width:80px;
+}
