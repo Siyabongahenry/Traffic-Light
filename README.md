@@ -2,7 +2,7 @@
 A simple traffic light
 <p align="center">
   <img src="/light.png"/><br/>
-  <a href="https://siyabongahenry.github.io/Traffic-Light/">visit website</a>
+  <a href="https://siyabongahenry.github.io/Traffic-Light/" target="_blank">visit website</a>
 </p>
 <p>
 The light changes from red to green after 5 second, green to yellow after 5 second and from yellow to red after 2s.
